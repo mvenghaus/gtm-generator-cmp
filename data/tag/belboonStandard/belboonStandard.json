@@ -1,0 +1,27 @@
+[
+	{
+		"accountId": "",
+		"containerId": "",
+		"tagId": "",
+		"name": "Belboon Standard",
+		"type": "html",
+		"parameter": [
+			{
+				"type": "TEMPLATE",
+				"key": "html",
+				"value": "<img src=\"//janus.r.jakuli.com/ts/i{{Belboon Standard Partner ID}}/tsa?typ=i&tst=&trc=default&ctg=sale&sid=checkout&cid={{Purchase ID}}&orv={{Purchase Revenue}}&orc={{Currency Code}}&cli=\" width=\"1\" height=\"1\" border=\"0\" style=\"display:none;\">"
+			},
+			{
+				"type": "BOOLEAN",
+				"key": "supportDocumentWrite",
+				"value": "false"
+			}
+		],
+		"fingerprint": "",
+		"firingTriggerId": [
+			"{{Page Type}}='purchase'"
+		],
+		"parentFolderId": "<<FOLDER Belboon Standard>>",
+		"tagFiringOption": "ONCE_PER_EVENT"
+	}
+]

@@ -1,0 +1,9 @@
+{
+	"accountId": "",
+	"containerId": "",
+	"triggerId": "",
+	"name": "ALL_PAGES",
+	"type": "DOM_READY",
+	"fingerprint": "",
+	"parentFolderId": "<<FOLDER Trigger>>"
+}

@@ -1,0 +1,4 @@
+.idea
+vendor
+etc/google_client_credentials.json
+projects/*

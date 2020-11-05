@@ -1,0 +1,26 @@
+{
+  "accountId": "",
+  "containerId": "",
+  "triggerId": "",
+  "name": "ADD_TO_CART_CLICK",
+  "type": "CUSTOM_EVENT",
+  "customEventFilter": [
+    {
+      "type": "EQUALS",
+      "parameter": [
+        {
+          "type": "TEMPLATE",
+          "key": "arg0",
+          "value": "{{_event}}"
+        },
+        {
+          "type": "TEMPLATE",
+          "key": "arg1",
+          "value": "addToCartClick"
+        }
+      ]
+    }
+  ],
+  "fingerprint": "",
+  "parentFolderId": "<<FOLDER Trigger>>"
+}

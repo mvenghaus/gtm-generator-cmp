@@ -1,0 +1,31 @@
+{
+	"accountId": "",
+	"containerId": "",
+	"variableId": "",
+	"name": "cmpGDPR",
+	"type": "v",
+	"parameter": [
+		{
+			"type": "INTEGER",
+			"key": "dataLayerVersion",
+			"value": "2"
+		},
+		{
+			"type": "BOOLEAN",
+			"key": "setDefaultValue",
+			"value": "true"
+		},
+		{
+			"type": "TEMPLATE",
+			"key": "defaultValue",
+			"value": "1"
+		},
+		{
+			"type": "TEMPLATE",
+			"key": "name",
+			"value": "cmpGDPR"
+		}
+	],
+	"fingerprint": "",
+	"parentFolderId": "<<FOLDER Variable>>"
+}

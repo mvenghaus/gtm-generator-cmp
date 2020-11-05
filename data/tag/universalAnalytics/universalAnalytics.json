@@ -1,0 +1,174 @@
+[
+	{
+		"accountId": "",
+		"containerId": "",
+		"tagId": "",
+		"name": "Universal Analytics - PageView",
+		"type": "ua",
+		"priority": {
+			"type": "INTEGER",
+			"value": "1000"
+		},
+		"parameter": [
+			{
+				"type": "BOOLEAN",
+				"key": "overrideGaSettings",
+				"value": "true"
+			},
+			{
+				"type": "TEMPLATE",
+				"key": "trackType",
+				"value": "TRACK_PAGEVIEW"
+			},
+			{
+				"type": "LIST",
+				"key": "metric",
+				"list": [
+					{
+						"type": "MAP",
+						"map": [
+							{
+								"type": "TEMPLATE",
+								"key": "index",
+								"value": "{{Search Num Results - Metric Index}}"
+							},
+							{
+								"type": "TEMPLATE",
+								"key": "metric",
+								"value": "{{Search Num Results}}"
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "TEMPLATE",
+				"key": "gaSettings",
+				"value": "{{Universal Analytics Settings}}"
+			}
+		],
+		"fingerprint": "",
+		"firingTriggerId": [
+			"{{Page Type}}='ALL PAGES'"
+		],
+		"tagFiringOption": "ONCE_PER_EVENT",
+		"parentFolderId": "<<FOLDER Universal Analytics>>"
+	},
+	{
+		"accountId": "",
+		"containerId": "",
+		"tagId": "",
+		"name": "Universal Analytics - Purchase",
+		"type": "ua",
+		"priority": {
+			"type": "INTEGER",
+			"value": "1000"
+		},
+		"parameter": [
+			{
+				"type": "BOOLEAN",
+				"key": "overrideGaSettings",
+				"value": "false"
+			},
+			{
+				"type": "TEMPLATE",
+				"key": "trackType",
+				"value": "TRACK_TRANSACTION"
+			},
+			{
+				"type": "TEMPLATE",
+				"key": "gaSettings",
+				"value": "{{Universal Analytics Settings}}"
+			}
+		],
+		"fingerprint": "",
+		"firingTriggerId": [
+			"{{Page Type}}='purchase'"
+		],
+		"tagFiringOption": "ONCE_PER_EVENT",
+		"parentFolderId": "<<FOLDER Universal Analytics>>"
+	},
+	{
+		"accountId": "",
+		"containerId": "",
+		"tagId": "",
+		"name": "Universal Analytics - 404 Not found",
+		"type": "ua",
+		"priority": {
+			"type": "INTEGER",
+			"value": "1000"
+		},
+		"parameter": [
+			{
+				"type": "BOOLEAN",
+				"key": "nonInteraction",
+				"value": "true"
+			},
+			{
+				"type": "BOOLEAN",
+				"key": "overrideGaSettings",
+				"value": "false"
+			},
+			{
+				"type": "TEMPLATE",
+				"key": "eventCategory",
+				"value": "404 Not found"
+			},
+			{
+				"type": "TEMPLATE",
+				"key": "trackType",
+				"value": "TRACK_EVENT"
+			},
+			{
+				"type": "TEMPLATE",
+				"key": "gaSettings",
+				"value": "{{Universal Analytics Settings}}"
+			},
+			{
+				"type": "TEMPLATE",
+				"key": "eventAction",
+				"value": "{{Page URL}}"
+			},
+			{
+				"type": "TEMPLATE",
+				"key": "eventLabel",
+				"value": "Referrer: {{Referrer}}"
+			}
+		],
+		"fingerprint": "",
+		"firingTriggerId": [
+			"{{Page Type}}='notfound'"
+		],
+		"tagFiringOption": "ONCE_PER_EVENT",
+		"parentFolderId": "<<FOLDER Universal Analytics>>"
+	},
+	{
+		"accountId": "",
+		"containerId": "",
+		"tagId": "",
+		"name": "Universal Analytics - OptOut JS Function",
+		"type": "html",
+		"priority": {
+			"type": "INTEGER",
+			"value": "1000"
+		},
+		"parameter": [
+			{
+				"type": "TEMPLATE",
+				"key": "html",
+				"value": "<script>\nif (document.cookie.indexOf('ga-disable-{{Universal Analytics Tracking ID}}=true') > -1) {\n  window['ga-disable-{{Universal Analytics Tracking ID}}'] = true;\n}\n\nwindow.gaOptout = function() {\n  document.cookie = 'ga-disable-{{Universal Analytics Tracking ID}}=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';\n  window['ga-disable-{{Universal Analytics Tracking ID}}'] = true;\n};\n</script>"
+			},
+			{
+				"type": "BOOLEAN",
+				"key": "supportDocumentWrite",
+				"value": "false"
+			}
+		],
+		"fingerprint": "",
+		"firingTriggerId": [
+			"{{Page Type}}='ALL PAGES'"
+		],
+		"tagFiringOption": "ONCE_PER_EVENT",
+		"parentFolderId": "<<FOLDER Universal Analytics>>"
+	}
+]

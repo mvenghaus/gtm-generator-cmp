@@ -1,0 +1,16 @@
+{
+	"accountId": "",
+	"containerId": "",
+	"variableId": "",
+	"name": "Category Products - Top 3",
+	"type": "jsm",
+	"parameter": [
+		{
+			"type": "TEMPLATE",
+			"key": "javascript",
+			"value": "function () {\n\treturn {{Category Products}}.slice(0, 3);\n}"
+		}
+	],
+	"fingerprint": "",
+	"parentFolderId": "<<FOLDER Variable>>"
+}
