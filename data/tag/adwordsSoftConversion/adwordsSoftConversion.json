@@ -1,0 +1,27 @@
+[
+	{
+		"accountId": "",
+		"containerId": "",
+		"tagId": "",
+		"name": "Adwords - Soft Conversion",
+		"type": "awct",
+		"parameter": [
+			{
+				"type": "TEMPLATE",
+				"key": "conversionId",
+				"value": "{{Adwords Soft Conversion ID}}"
+			},
+			{
+				"type": "TEMPLATE",
+				"key": "conversionLabel",
+				"value": "{{Adwords Soft Conversion Label}}"
+			}
+		],
+		"fingerprint": "",
+		"firingTriggerId": [
+			"ADD_TO_CART_CLICK"
+		],
+		"tagFiringOption": "ONCE_PER_EVENT",
+		"parentFolderId": "<<FOLDER Adwords Soft Conversion>>"
+	}
+]
