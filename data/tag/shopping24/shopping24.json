@@ -1,0 +1,50 @@
+[
+	{
+		"accountId": "",
+		"containerId": "",
+		"tagId": "",
+		"name": "Shopping24 - Product",
+		"type": "html",
+		"parameter": [
+			{
+				"type": "TEMPLATE",
+				"key": "html",
+				"value": "<script src=\"https://tracking.s24.com/js/conversion-tracking.js\"></script>\n<script>\n  document.addEventListener('DOMContentLoaded', function initS24() {\n  \twindow.s24ConversionTracking.init('{{Shopping24 Shop ID}}');\n  }, false);\n</script>"
+			},
+			{
+				"type": "BOOLEAN",
+				"key": "supportDocumentWrite",
+				"value": "false"
+			}
+		],
+		"fingerprint": "",
+		"firingTriggerId": [
+			"{{Page Type}}='product'"
+		],
+		"parentFolderId": "<<FOLDER Shopping24>>"
+	},
+	{
+		"accountId": "",
+		"containerId": "",
+		"tagId": "",
+		"name": "Shopping24 - Purchase",
+		"type": "html",
+		"parameter": [
+			{
+				"type": "TEMPLATE",
+				"key": "html",
+				"value": "<script src=\"https://tracking.s24.com/js/conversion-tracking.js\"></script>\n<script>\n  window.s24ConversionTracking.track({\n    'order_id': '{{Purchase ID}}',\n    'conversion_value': {{Purchase Revenue}},\n    'currency': '{{Currency Code}}',\n    'skus': {{Purchase Product IDs}}\n  })\n</script>"
+			},
+			{
+				"type": "BOOLEAN",
+				"key": "supportDocumentWrite",
+				"value": "false"
+			}
+		],
+		"fingerprint": "",
+		"firingTriggerId": [
+			"{{Page Type}}='purchase'"
+		],
+		"parentFolderId": "<<FOLDER Shopping24>>"
+	}
+]
