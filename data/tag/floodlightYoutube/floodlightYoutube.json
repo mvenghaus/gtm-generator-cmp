@@ -1,0 +1,58 @@
+[
+	{
+		"accountId": "",
+		"containerId": "",
+		"tagId": "",
+		"name": "Floodlight Youtube - Product",
+		"type": "html",
+		"parameter": [
+			{
+				"type": "TEMPLATE",
+				"key": "html",
+				"value": "<script type=\"text/javascript\">\n/* <![CDATA[ */\nvar google_conversion_id = {{Floodlight Youtube Conversion ID}};\nvar google_conversion_label = \"{{Floodlight Youtube Conversion Label - Product}}\";\nvar google_remarketing_only = false;\nvar google_allow_ad_personalization_signals = false;\n/* ]]> */\n</script>\n<script type=\"text/javascript\" src=\"//www.googleadservices.com/pagead/conversion.js\">\n</script>"
+			},
+			{
+				"type": "BOOLEAN",
+				"key": "supportDocumentWrite",
+				"value": "false"
+			}
+		],
+		"fingerprint": "",
+		"firingTriggerId": [
+			"{{Page Type}}='product'"
+		],
+		"tagFiringOption": "ONCE_PER_EVENT",
+		"monitoringMetadata": {
+			"type": "MAP"
+		},
+		"parentFolderId": "<<FOLDER Floodlight Youtube>>"
+	},
+	{
+		"accountId": "",
+		"containerId": "",
+		"tagId": "",
+		"name": "Floodlight Youtube - Purchase",
+		"type": "html",
+		"parameter": [
+			{
+				"type": "TEMPLATE",
+				"key": "html",
+				"value": "<script type=\"text/javascript\">\n/* <![CDATA[ */\nvar google_conversion_id = {{Floodlight Youtube Conversion ID}};\nvar google_conversion_label = \"{{Floodlight Youtube Conversion Label - Purchase}}\";\nvar google_remarketing_only = false;\nvar google_allow_ad_personalization_signals = false;\n/* ]]> */\n</script>\n<script type=\"text/javascript\" src=\"//www.googleadservices.com/pagead/conversion.js\">\n</script>"
+			},
+			{
+				"type": "BOOLEAN",
+				"key": "supportDocumentWrite",
+				"value": "false"
+			}
+		],
+		"fingerprint": "",
+		"firingTriggerId": [
+			"{{Page Type}}='purchase'"
+		],
+		"tagFiringOption": "ONCE_PER_EVENT",
+		"monitoringMetadata": {
+			"type": "MAP"
+		},
+		"parentFolderId": "<<FOLDER Floodlight Youtube>>"
+	}
+]
