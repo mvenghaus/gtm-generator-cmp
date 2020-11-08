@@ -44,7 +44,7 @@
 		],
 		"fingerprint": "",
 		"firingTriggerId": [
-			"{{Page Type}}='Purchase'"
+			"{{Page Type}}='purchase'"
 		],
 		"teardownTag": [
 			{

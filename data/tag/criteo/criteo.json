@@ -29,7 +29,7 @@
 		],
 		"fingerprint": "",
 		"firingTriggerId": [
-			"{{Page Type}}='Home'"
+			"{{Page Type}}='home'"
 		],
 		"tagFiringOption": "ONCE_PER_EVENT",
 		"parentFolderId": "<<FOLDER Criteo>>"
@@ -69,7 +69,7 @@
 		],
 		"fingerprint": "",
 		"firingTriggerId": [
-			"{{Page Type}}='Product'"
+			"{{Page Type}}='product'"
 		],
 		"tagFiringOption": "ONCE_PER_EVENT",
 		"parentFolderId": "<<FOLDER Criteo>>"
@@ -109,7 +109,7 @@
 		],
 		"fingerprint": "",
 		"firingTriggerId": [
-			"{{Page Type}}='Category'"
+			"{{Page Type}}='category'"
 		],
 		"tagFiringOption": "ONCE_PER_EVENT",
 		"parentFolderId": "<<FOLDER Criteo>>"
@@ -149,7 +149,7 @@
 		],
 		"fingerprint": "",
 		"firingTriggerId": [
-			"{{Page Type}}='Searchresults'"
+			"{{Page Type}}='searchresults'"
 		],
 		"tagFiringOption": "ONCE_PER_EVENT",
 		"parentFolderId": "<<FOLDER Criteo>>"
@@ -189,7 +189,7 @@
 		],
 		"fingerprint": "",
 		"firingTriggerId": [
-			"{{Page Type}}='Cart'"
+			"{{Page Type}}='cart'"
 		],
 		"tagFiringOption": "ONCE_PER_EVENT",
 		"parentFolderId": "<<FOLDER Criteo>>"
@@ -234,7 +234,7 @@
 		],
 		"fingerprint": "",
 		"firingTriggerId": [
-			"{{Page Type}}='Purchase'"
+			"{{Page Type}}='purchase'"
 		],
 		"tagFiringOption": "ONCE_PER_EVENT",
 		"parentFolderId": "<<FOLDER Criteo>>"

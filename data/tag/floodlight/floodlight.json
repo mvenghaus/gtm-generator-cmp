@@ -131,7 +131,7 @@
 		],
 		"fingerprint": "",
 		"firingTriggerId": [
-			"{{Page Type}}='Product'"
+			"{{Page Type}}='product'"
 		],
 		"monitoringMetadata": {
 			"type": "MAP"
@@ -314,7 +314,7 @@
 		],
 		"fingerprint": "",
 		"firingTriggerId": [
-			"{{Page Type}}='Purchase'"
+			"{{Page Type}}='purchase'"
 		],
 		"monitoringMetadata": {
 			"type": "MAP"

@@ -44,7 +44,7 @@
 		],
 		"fingerprint": "",
 		"firingTriggerId": [
-			"{{Page Type}}='Purchase'"
+			"{{Page Type}}='purchase'"
 		],
 		"parentFolderId": "<<FOLDER AdCell>>",
 		"tagFiringOption": "ONCE_PER_EVENT"
@@ -69,7 +69,7 @@
 		],
 		"fingerprint": "",
 		"firingTriggerId": [
-			"{{Page Type}}='Home'"
+			"{{Page Type}}='home'"
 		],
 		"parentFolderId": "<<FOLDER AdCell>>",
 		"tagFiringOption": "ONCE_PER_EVENT"
@@ -94,7 +94,7 @@
 		],
 		"fingerprint": "",
 		"firingTriggerId": [
-			"{{Page Type}}='Category'"
+			"{{Page Type}}='category'"
 		],
 		"parentFolderId": "<<FOLDER AdCell>>",
 		"tagFiringOption": "ONCE_PER_EVENT"
@@ -119,7 +119,7 @@
 		],
 		"fingerprint": "",
 		"firingTriggerId": [
-			"{{Page Type}}='Searchresults'"
+			"{{Page Type}}='searchresults'"
 		],
 		"parentFolderId": "<<FOLDER AdCell>>",
 		"tagFiringOption": "ONCE_PER_EVENT"
@@ -144,7 +144,7 @@
 		],
 		"fingerprint": "",
 		"firingTriggerId": [
-			"{{Page Type}}='Product'"
+			"{{Page Type}}='product'"
 		],
 		"parentFolderId": "<<FOLDER AdCell>>",
 		"tagFiringOption": "ONCE_PER_EVENT"
@@ -169,7 +169,7 @@
 		],
 		"fingerprint": "",
 		"firingTriggerId": [
-			"{{Page Type}}='Cart'"
+			"{{Page Type}}='cart'"
 		],
 		"parentFolderId": "<<FOLDER AdCell>>",
 		"tagFiringOption": "ONCE_PER_EVENT"
@@ -194,7 +194,7 @@
 		],
 		"fingerprint": "",
 		"firingTriggerId": [
-			"{{Page Type}}='Purchase'"
+			"{{Page Type}}='purchase'"
 		],
 		"parentFolderId": "<<FOLDER AdCell>>",
 		"tagFiringOption": "ONCE_PER_EVENT"

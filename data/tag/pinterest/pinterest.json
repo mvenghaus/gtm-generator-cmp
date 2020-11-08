@@ -87,7 +87,7 @@
 		],
 		"fingerprint": "",
 		"firingTriggerId": [
-			"{{Page Type}}='Purchase'"
+			"{{Page Type}}='purchase'"
 		],
 		"setupTag": [
 			{
@@ -122,7 +122,7 @@
 		],
 		"fingerprint": "",
 		"firingTriggerId": [
-			"{{Page Type}}='Searchresults'"
+			"{{Page Type}}='searchresults'"
 		],
 		"setupTag": [
 			{

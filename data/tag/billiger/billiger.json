@@ -19,7 +19,7 @@
 		],
 		"fingerprint": "",
 		"firingTriggerId": [
-			"{{Page Type}}='Purchase'"
+			"{{Page Type}}='purchase'"
 		],
 		"parentFolderId": "<<FOLDER Billiger>>"
 	}
