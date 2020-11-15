@@ -81,7 +81,7 @@ class TriggerHandler
 				$params = $this->parseParams($firingTriggerId ?? '');
 
 				$params[] = ['type' => 'equals', 'name' => '{{cmpGDPR}}', 'value' => '1'];
-				$params[] = ['type' => 'contains', 'name' => '{{cmpCustomVendorsConsent}}', 'value' => sprintf(',%s,', $tagSettings['cmpVendor'])];
+				$params[] = ['type' => 'contains', 'name' => '{{cmpConsentVendors}}', 'value' => sprintf(',%s,', $tagSettings['cmpVendor'])];
 
 				$triggerName = $tagItem['name'];
 				$triggerHash = md5(sprintf('%s#%s', $triggerName, json_encode($params)));

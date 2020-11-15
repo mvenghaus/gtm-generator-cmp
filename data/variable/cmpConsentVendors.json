@@ -1,0 +1,30 @@
+{
+	"accountId": "",
+	"containerId": "",
+	"variableId": "",
+	"name": "cmpConsentVendors",
+	"type": "v",
+	"parameter": [
+		{
+			"type": "INTEGER",
+			"key": "dataLayerVersion",
+			"value": "2"
+		},
+		{
+			"type": "BOOLEAN",
+			"key": "setDefaultValue",
+			"value": "true"
+		},
+		{
+			"type": "TEMPLATE",
+			"key": "defaultValue"
+		},
+		{
+			"type": "TEMPLATE",
+			"key": "name",
+			"value": "cmpConsentVendors"
+		}
+	],
+	"fingerprint": "",
+	"parentFolderId": "<<FOLDER Variable>>"
+}
