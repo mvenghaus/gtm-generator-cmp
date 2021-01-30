@@ -1,0 +1,16 @@
+{
+	"accountId": "",
+	"containerId": "",
+	"variableId": "",
+	"name": "Purchase Revenue Total",
+	"type": "jsm",
+	"parameter": [
+		{
+			"type": "TEMPLATE",
+			"key": "javascript",
+			"value": "function () {\n  return ({{Purchase Revenue}} + {{Purchase Tax}} + {{Purchase Shipping}});\n}"
+		}
+	],
+	"fingerprint": "",
+	"parentFolderId": "<<FOLDER Variable>>"
+}

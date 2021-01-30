@@ -34,7 +34,7 @@
 			{
 				"type": "TEMPLATE",
 				"key": "html",
-				"value": "<div id=\"trustedShopsCheckout\" style=\"display: none;\">\n  <span id=\"tsCheckoutOrderNr\">{{Purchase ID}}</span>\n  <span id=\"tsCheckoutBuyerEmail\">{{Purchase Email}}</span>\n  <span id=\"tsCheckoutOrderAmount\">{{Purchase Revenue}}</span>\n  <span id=\"tsCheckoutOrderCurrency\">{{Currency Code}}</span>\n  <span id=\"tsCheckoutOrderPaymentType\"></span>\n  <span id=\"tsCheckoutOrderEstDeliveryDate\"></span>\n</div> "
+				"value": "<div id=\"trustedShopsCheckout\" style=\"display: none;\">\n  <span id=\"tsCheckoutOrderNr\">{{Purchase ID}}</span>\n  <span id=\"tsCheckoutBuyerEmail\">{{Purchase Email}}</span>\n  <span id=\"tsCheckoutOrderAmount\">{{Purchase Revenue Total}}</span>\n  <span id=\"tsCheckoutOrderCurrency\">{{Currency Code}}</span>\n  <span id=\"tsCheckoutOrderPaymentType\"></span>\n  <span id=\"tsCheckoutOrderEstDeliveryDate\"></span>\n</div> "
 			},
 			{
 				"type": "BOOLEAN",
